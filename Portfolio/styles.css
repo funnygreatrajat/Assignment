@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hero span {
+    color: #ff6e7f;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #f7f7f7;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Projects Section */
+  .projects .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .projects .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Contact Section */
+  .contact form input,
+  .contact form textarea {
+    margin-bottom: 15px;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
